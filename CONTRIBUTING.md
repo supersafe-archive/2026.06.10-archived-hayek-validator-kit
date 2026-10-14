@@ -100,7 +100,7 @@ To ensure fast and effective reviews, please follow these guidelines:
 
 2. **Opening the PR:**
    - Push your branch to your fork
-   - Open a pull request (PR) to `team-supersafe/hayek-validator-kit:main`
+   - Open a pull request (PR) to `supersafe-hq/hayek-validator-kit:main`
    - Use the provided PR template to describe your changes
    - If creating the PR via GitHub CLI or automation, start from `.github/pull_request_template.md` instead of writing an ad hoc body
    - Include a clear description and reference any related issues

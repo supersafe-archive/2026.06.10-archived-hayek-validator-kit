@@ -13,7 +13,7 @@
           "token.actions.githubusercontent.com:aud": "sts.amazonaws.com"
         },
         "StringLike": {
-          "token.actions.githubusercontent.com:sub": "repo:team-supersafe/hayek-validator-kit:*"
+          "token.actions.githubusercontent.com:sub": "repo:supersafe-hq/hayek-validator-kit:*"
         }
       }
     }

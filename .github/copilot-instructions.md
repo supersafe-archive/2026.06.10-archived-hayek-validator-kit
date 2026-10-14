@@ -141,11 +141,11 @@ When contributing from a feature or fix branch, always create PRs with the repos
 1. **Base and head must be correct:**
    ```bash
    gh pr create \
-     --repo team-supersafe/hayek-validator-kit \
+     --repo supersafe-hq/hayek-validator-kit \
      --base main \
      --head <your-fork-owner>:<branch>
    ```
-   - Open PRs against `team-supersafe/hayek-validator-kit:main`
+   - Open PRs against `supersafe-hq/hayek-validator-kit:main`
    - Push the branch to your fork first and use the fork branch as `--head`
 
 2. **Always use `.github/pull_request_template.md`:**

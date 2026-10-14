@@ -24,7 +24,7 @@ Related files in this repo:
 export AWS_REGION=us-east-1
 export AWS_ACCOUNT_ID="$(aws sts get-caller-identity --query Account --output text)"
 export ROLE_NAME="hvk-github-actions-s3-publisher"
-export REPO_SLUG="team-supersafe/hayek-validator-kit"
+export REPO_SLUG="supersafe-hq/hayek-validator-kit"
 export BUCKET_NAME="solv-store"
 ```
 
@@ -67,7 +67,7 @@ The template includes placeholders and a repo scope.
 ```bash
 sed \
   -e "s|<AWS_ACCOUNT_ID>|${AWS_ACCOUNT_ID}|g" \
-  -e "s|repo:team-supersafe/hayek-validator-kit:\\*|repo:${REPO_SLUG}:*|g" \
+  -e "s|repo:supersafe-hq/hayek-validator-kit:\\*|repo:${REPO_SLUG}:*|g" \
   solana-localnet/build-solana-cli/solv-s3-oidc-trust-policy.json \
   > /tmp/hvk-oidc-trust-policy.json
 

@@ -34,8 +34,8 @@ agave_official_repo: https://github.com/anza-xyz/agave
 jito_official_repo: https://github.com/jito-foundation/jito-solana
 
 # Forked repositories (with potential modifications)
-agave_forked_repo: https://github.com/team-supersafe/forked-agave
-jito_forked_repo: https://github.com/team-supersafe/forked-jito-solana
+agave_forked_repo: https://github.com/supersafe-hq/forked-agave
+jito_forked_repo: https://github.com/supersafe-hq/forked-jito-solana
 
 # New variables for V2 refactor (would replace some of the above shortly)
 validator_root_dir: "/opt/validator"
